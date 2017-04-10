@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="display">
+            <div id="input_display"></div>
+            <p id="result">0</p>
+        </div>
+        <div id="buttons">
+            <span class="btn seven" data-value="7">7</span>
+            <span class="btn eight" data-value="8">8</span>
+            <span class="btn nine" data-value="9">9</span>
+
+            <span class="btn four" data-value="4">4</span>
+            <span class="btn five" data-value="5">5</span>
+            <span class="btn six" data-value="6">6</span>
+
+            <span class="btn one" data-value="1">1</span>
+            <span class="btn two" data-value="2">2</span>
+            <span class="btn three" data-value="3">3</span>
+
+            <span class="btn opr dot" data-value=".">.</span>
+            <span class="btn zero" data-value="0">0</span>
+            <span class="opr equals" data-value="=">=</span>
+        </div>
+        <div id="operations">
+            <span class="opr del" data-value="DEL">DEL</span>
+            <span class="btn opr plus" data-value="+">+</span>
+            <span class="btn opr minus" data-value="-">-</span>
+            <span class="btn opr division" data-value="÷">÷</span>
+            <span class="btn opr multiply" data-value="×">×</span>
+        </div>
+        <div id="more_options">
+            <a href="#"></a>
+        </div>
+        <input type="text" class="input_val">
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@white: #fff;
+@width: 100%;
+@light-gray: #C7C7C7;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: @white;
+    height: @width;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: @white;
+    text-align: center;
+    width: @width;
+}
+
+#wrapper {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 100px;
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+span {
+    color: #C0C0C0;
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+    background: #4C4C4C;
+    line-height: 80px;
+    font-size: 1.8em;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+        transition: .2s ease-in-out;
+    }
+}
+
+#display {
+    width: @width;
+    height: auto;
+    display: block;
+    p {
+        width: @width;
+        height: 80px;
+        background: #eee;
+        font-size: 2.2em;
+        font-weight: 300;
+        display: block;
+        text-align: right;
+        line-height: 80px;
+        padding-right: 30px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        color: @light-gray;
+        overflow: hidden;
+    }
+}
+
+#input_display {
+    width: @width;
+    height: 140px;
+    border: none;
+    background: #EEEEEE;
+    outline: none;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 15px;
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 140px;
+    font-family: 'Open Sans', sans-serif;
+    color: @light-gray;
+    overflow: hidden;
+}
+
+#buttons, #operations, #more_options, #input_display, #wrapper {
+    box-sizing: border-box;
+}
+
+#buttons {
+    width: 300px;
+    float: left;
+    display: inline-block;
+}
+
+#operations {
+    width: 100px;
+    display: inline-block;
+    float: left;
+    span {
+        height: 64px;
+        line-height: 64px;
+        background: #666;
+        font-size: 1em;
+    }
+}
+
+#more_options a {
+    min-height: 320px;
+    width: 20px;
+    display: inline-block;
+    float: left;
+    background: #40BC9D;
+}
+
+.input_val {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-150%);
+}

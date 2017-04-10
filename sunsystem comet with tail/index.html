@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>solar system</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="css/style.css" media="none" onload="if(media!='all')media='all'" title="no title" charset="utf-8">
+      <script>
+        console.log(document.querySelector('p'));
+      </script>
+  </head>
+  <body>
+    <div id="sunsystem" class="sunsystem">
+        <h1>Welcome to solar system!</h1>
+        <div class="sun"></div>
+        <div class="mercury"></div>
+        <div class="venus"></div>
+        <div class="earth"></div>
+        <div class="moon"></div>
+        <div class="mars"></div>
+        <div class="jupiter"></div>
+        <div class="saturn"></div>
+        <div class="uranus"></div>
+        <div class="neptune"></div>
+        <div class="pluto"></div>
+        <p class="text">This style was added with @import from external css</p>
+    </div>
+    <svg height="800" width="3000">
+        <path d="M 0 600 q 700 -300 2000 -350" stroke="rgba(225, 225, 225, 0.05)" stroke-width="1" fill="none"></path>
+    </svg>
+    <div class="comet path">
+    </div>
+    <script type="text/javascript">
+        //ChangeDOMtree
+        window.addEventListener('load',function(){
+            setTimeout(function(){
+                var p = document.createElement('p');
+                var textnode = document.createTextNode('This paragraph was appended with JavaScript!');
+                p.appendChild(textnode);
+                p.classList.add('text');
+                document.querySelector('#sunsystem').appendChild(p);
+            },2000);
+        });
+
+    </script>
+
+    <script src='js/undefined.js'>
+    </script>
+    <script src='js/undefinedTwo.js'>
+    </script>
+  </body>
+</html>

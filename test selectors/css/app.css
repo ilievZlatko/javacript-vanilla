@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 700px;
+    background: url(../img/headerimg-operation.jpg) top center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-header {
+    width: 100%;
+    height: 60px;
+    padding-top: 30px;
+}
+
+.logo {
+    float: left;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 130px;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.logo span#account {
+    color: #fff;
+    font-size: 0.625em;
+    float: left;
+    background: green;
+    padding: 1px 2px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    display: inline-block;
+    height: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 60px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    font-size: 0.625em;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav ul li a:hover {
+    font-weight: 700;
+}
+
+.active {
+    color: #77BC20;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.button a {
+    font-size: 0.75em;
+    color: #fff;
+    font-weight: normal;
+    height: 40px;
+    width: 100px;
+    background-color: #77BC20;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+#body-content p {
+    margin-bottom: 50px;
+}
+
+p.get_mobile {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 0.85em;
+    font-weight: 100;
+}
+
+.appstore {
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.appstore a {
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.apple {
+    background: url(../img/appstore.png) top left no-repeat;
+    background-size: contain;
+}
+
+.android {
+    background: url(../img/google-play.png) top left no-repeat;
+    background-size: contain;
+}
+
+#body-content {
+    padding-top: 80px;
+}
+
+#body-content h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#body-content p#html {
+    color: #1a1a1a;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 0.875em;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url(../img/HTML5.jpg) top left no-repeat;
+}
+
+#body-content p#css {
+    color: #1a1a1a;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 0.875em;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background: url(../img/html5-css3.png) top right no-repeat;
+    background-size: 200px;
+}
+
+#body-content p#js {
+    color: #1a1a1a;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 0.875em;
+    padding-left: 230px;
+    padding-bottom: 30px;
+    background: url(../img/css3-html5-js-logo.png) top left no-repeat;
+    background-size: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
